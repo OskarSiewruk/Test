@@ -1,2 +1,2 @@
 # Test
-Nauka kodzenia
+Nauka kodzenia w tym repozzytorium
