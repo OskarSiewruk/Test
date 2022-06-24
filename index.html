@@ -1,43 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="styles.css" type="text/css">
+	</head>
+	<body>
+		<h2>HTML</h2>
+		<pre>
+	video
+	src=
+	poster=
+	width
+	controls
+	autoplay
+	loop
+	preload="auto"
+	/video
 
-<h2>CSS:</h2>
-<p>text-decoration: none | line-through | overline | underline</p>
-<p>text-transform: none | uppercase | lowercase | capitalize</p>
-<p>text-align: Left | right | center | justify</p>
-<p>text-indent: wartość | procent | inherit</p>
-<p>line-height: mnożnik | wartość | % | normal | inherit</p>
-<p>letter-spacing: wartość | normal | inherit</p>
-<p>word-spacing: wartość | normal | inherit</p>
-<p>text-shadow: przesunięcie wzdłuż osi x, przesunięcie wzdłuż osi y, promień rozmycia, kolor</p>
-<p>white-space: normal | nowrap | pre | pre-wrap</p>	
-<p>background-image: url('scieżka')</p>
+	video 
+	poster
+	width
+	controls>
+	< source 
+	src=""
+	type="video/webm"
+				mp4
+				ogg
+	/video >
+</pre
+		>
 
-<h2>Czcionki:</h2>
-<p>font-size</p>
-<p>font-weight 100-900</p>
-<p>font-style: normal | italic | oblique | initial | inherit</p>
-<p>font-family: 'czcionka', serif | sans-serif</p>
+		<h2>CSS:</h2>
+		<p>text-decoration: none | line-through | overline | underline</p>
+		<p>text-transform: none | uppercase | lowercase | capitalize</p>
+		<p>text-align: Left | right | center | justify</p>
+		<p>text-indent: wartość | procent | inherit</p>
+		<p>line-height: mnożnik | wartość | % | normal | inherit</p>
+		<p>letter-spacing: wartość | normal | inherit</p>
+		<p>word-spacing: wartość | normal | inherit</p>
+		<p>
+			text-shadow: przesunięcie wzdłuż osi x, przesunięcie wzdłuż osi y, promień
+			rozmycia, kolor
+		</p>
+		<p>white-space: normal | nowrap | pre | pre-wrap</p>
+		<p>background-image: url('scieżka')</p>
 
-<h2>Pseudoelementy:</h2>
-<p>::first-letter: {font-family: 'czcionka', serif | sans-serif }</p>
-<p>::selection { }</p>
+		<!-- ctrl + k+c -->
+		<!-- ctr + k + u -->
+		<h2>Czcionki:</h2>
+		<p>font-size</p>
+		<p>font-weight 100-900</p>
+		<p>font-style: normal | italic | oblique | initial | inherit</p>
+		<p>font-family: 'czcionka', serif | sans-serif</p>
 
-<h2>Pseudoklasy stanowe:</h2>
-<p>:hover</p>
-<p>:focus</p>
-<p>:active</p>
-<p>:visited</p>
-<p> { cursor }</p>
+		<h2>Pseudoelementy tekstowe:</h2>
+		<p>::first-letter: {font-family: 'czcionka', serif | sans-serif }</p>
+		<p>::selection { }</p>
 
+		<h2>Pseudoklasy stanowe:</h2>
+		<p>:hover</p>
+		<p>:focus</p>
+		<p>:active</p>
+		<p>:visited</p>
+		<p>{ cursor }</p>
 
+		<h2>Pseudoklasy strukturalne:</h2>
+		<p>:first-child</p>
+		<p>:last-child</p>
+		<p>:not(selector)</p>
+		<p>:nth-child(an+b)</p>
+		<p>:first-of-type</p>
+		<p>:last-of-type</p>
+		<p>:only-of-type</p>
+		<p>:only-child</p>
+		<p>:empty</p>
 
-</body>
+		<h2>Box model:</h2>
+		<p>box-sizing: content-box | border-box | inherit</p>
+		<p>padding</p>
+		<p>margin</p>
+		<p>border</p>
+		<p>border-radius</p>
+		<p>display: inline, block, inline-block</p>
+
+		<h2>Flexible Box Layout</h2>
+		<p>display: flex, inline-flex</p>
+		<p>flex-direction: row, ro-reverse, column, column-reverse</p>
+		<p>
+			justify-content: flex-start | flex-end | center | space-between |
+			space-around | space-evenly
+		</p>
+		<p>align-items: stretch | flex-start | flex-end | center | baseline</p>
+		<p>flex-wrap: nowrap | wrap | wrap-reverse</p>
+		<p>gap:</p>
+		<p>
+			calc((100% - number_of_gaps_in_row * value_of_one_gap) /
+			number_of_elements_in_row)
+		</p>
+		<p>
+			align-content: flex-start | flex-end | center | space-between |
+			space-around | space-evenly | stretch
+		</p>
+		<p>flex-basis: auto | wartość</p>
+		<p>flex-grow: ułamek</p>
+		<p>flex-shrink: ułamek</p>
+		<p>
+			align-self: auto | flex-start | flex-end | center | baseline | stretch
+		</p>
+
+		<div class="flex-container">
+			<div class="container-1">Kontener 1</div>
+			<div class="container-2">Kontener 2</div>
+			<div class="container-3">Kontener 3</div>
+			<div class="container-4">Kontener 4</div>
+			<div class="container-5">Kontener 5</div>
+			<div class="container-6">Kontener 6</div>
+		</div>
+	</body>
 </html>
